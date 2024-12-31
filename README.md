@@ -31,7 +31,6 @@ Fork the Repository: Click the "Fork" button at the top right of this repository
 Clone Your Fork: Clone the forked repository to your local machine using:
 
 ```bash
-Copy code
 git clone https://github.com/your-username/your-forked-repo.git
 ```
 
