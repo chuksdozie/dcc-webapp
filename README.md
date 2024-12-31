@@ -24,44 +24,44 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 
 ## How to Contribute
-Contributions to this project are welcome and encouraged! Here’s how you can contribute:
+1. Contributions to this project are welcome and encouraged! Here’s how you can contribute:
 
-Fork the Repository: Click the "Fork" button at the top right of this repository to create your copy.
+2. Fork the Repository: Click the "Fork" button at the top right of this repository to create your copy.
 
-Clone Your Fork: Clone the forked repository to your local machine using:
+3. Clone Your Fork: Clone the forked repository to your local machine using:
 
-```bash
-git clone https://github.com/your-username/your-forked-repo.git
-```
+	```bash
+	git clone https://github.com/your-username/your-forked-repo.git
+	```
 
-### Create a Branch: Create a new branch for your feature or bugfix:
+4. Create a Branch: Create a new branch for your feature or bugfix:
 
-bash
-Copy code
-git checkout -b feature/your-feature-name
-Make Your Changes: Implement your changes in the codebase.
+	```bash
+	git checkout -b feature/your-feature-name
+	```
+5. Make Your Changes: Implement your changes in the codebase.
 
-Test Your Changes: Ensure that your changes work as intended and do not break existing functionality.
+6. Test Your Changes: Ensure that your changes work as intended and do not break existing functionality.
 
-Commit Your Changes: Commit your changes with a descriptive commit message:
+7. Commit Your Changes: Commit your changes with a descriptive commit message:
 
-bash
-Copy code
-git commit -m "Add description of your changes"
-Push Your Branch: Push your changes to your forked repository:
+	```bash
+	git commit -m "Add description of your changes"
+	```
 
-bash
-Copy code
-git push origin feature/your-feature-name
-Open a Pull Request: Go to the original repository on GitHub and open a pull request from your branch.
+8. Push Your Branch: Push your changes to your forked repository:
 
-Engage in Review: Collaborate with maintainers and address any feedback provided.
+	```bash
+	git push origin feature/your-feature-name
+	```
 
-Celebrate: Once your changes are approved and merged, celebrate your contribution!
+9. Open a Pull Request: Go to the original repository on GitHub and open a pull request from your branch.
+
+10. Engage in Review: Collaborate with maintainers and address any feedback provided.
+
+11. Celebrate: Once your changes are approved and merged, celebrate your contribution!
 
 Thank you for contributing to this project and helping to make it better!
-
-Copy code
 
 
 
