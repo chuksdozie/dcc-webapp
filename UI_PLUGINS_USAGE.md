@@ -14,7 +14,7 @@ Welcome to the UI Plugins usage guide! This document outlines the best practices
 ### **2. Parent Component for Each Plugin**
 
 - Create a parent (or wrapper) component for every UI plugin component.
-- This simplifies updates and modifications by centralizing the logic and configuration.
+- This simplifies updates and modifications by centralizing the logic and configuration..
 
 ---
 
