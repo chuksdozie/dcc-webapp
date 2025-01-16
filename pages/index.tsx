@@ -6,8 +6,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex border">
+    <main className="flex bg-gray-400 h-[100vh] items-center justify-center">
+      <div className="bg-gray-500 flex w-[700px] h-[500px] justify-center items-center">
         DCC Community
         <PrimaryButtton />
       </div>
