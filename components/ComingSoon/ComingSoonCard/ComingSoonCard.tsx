@@ -1,6 +1,6 @@
 import Logo from "@/components/base/Logo";
 import React from "react";
-import comingSoon from "@/assets/images/construction.png";
+import comingSoon from "@/assets/images/construction.svg";
 import Image from "next/image";
 import ComingSoonMain from "../ComingSoonMain";
 
@@ -26,7 +26,7 @@ const ComingSoonCard = () => {
               style={{ objectFit: "contain" }}
             />
           </div>
-          <h2 className="text-textBlue text-4xl first-line:font-bold text-center mb-8">
+          <h2 className="text-textBlue text-4xl first-line:font-bold text-center mb-8 mt-4">
             Coming Soon
           </h2>
           <div>
