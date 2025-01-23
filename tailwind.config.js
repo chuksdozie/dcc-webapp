@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import colors from "./constants/colors";
+
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -16,9 +18,7 @@ module.exports = {
         blackOverlay: "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))",
       },
       colors: {
-        bgBlue: "#026BFF",
-        textBlue: "#045FDE",
-        appYellow: "#FFD859",
+        ...colors,
       },
     },
     fontFamily: {

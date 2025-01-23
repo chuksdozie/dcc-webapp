@@ -13,7 +13,7 @@ const comingYourWayPoints = [
 
 const ComingSoonMain = () => {
   return (
-    <div className="bg-bgBlue w-full rounded-xl px-4 py-6 flex flex-col justify-between items-start h-full">
+    <div className=" bg-brand700 text-white w-full rounded-xl px-4 py-6 flex flex-col justify-between items-start h-full">
       <p className="font-bold text-lg text-center mb-6">
         We’re building a <TextUnderline>vibrant</TextUnderline> tech hub where{" "}
         <TextUnderline>developers</TextUnderline>, tech professionals, and{" "}
