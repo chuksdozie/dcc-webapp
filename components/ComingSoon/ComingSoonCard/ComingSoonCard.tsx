@@ -26,7 +26,7 @@ const ComingSoonCard = () => {
               style={{ objectFit: "contain" }}
             />
           </div>
-          <h2 className="text-textBlue text-4xl first-line:font-bold text-center mb-8 mt-4">
+          <h2 className="text-brand900 text-4xl first-line:font-bold text-center mb-8 mt-4">
             Coming Soon
           </h2>
           <div>

@@ -3,6 +3,7 @@ type ColorShades = {
 };
 
 const colors: ColorShades = {
+  accent700: "#FFD859",
   gray25: "#FDFDFD",
   gray50: "#FAFAFA",
   gray100: "#F5F5F5",
