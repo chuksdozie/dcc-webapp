@@ -1,5 +1,6 @@
 import AppCtaBtn from "@/components/base/AppCtaBtn";
 import TextUnderline from "@/components/base/TextUnderline";
+import Link from "next/link";
 import React from "react";
 
 const comingYourWayPoints = [
@@ -32,7 +33,9 @@ const ComingSoonMain = () => {
         </ul>
       </div>
       <div className="text-center w-full my-4">
-        <AppCtaBtn>Be Part of the Community!</AppCtaBtn>
+        <Link href="https://chat.whatsapp.com/ENV72u1PQEJ3bLfMolXwS5">
+          <AppCtaBtn>Be Part of the Community!</AppCtaBtn>
+        </Link>
       </div>
     </div>
   );
