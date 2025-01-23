@@ -1,4 +1,8 @@
-const colors = {
+type ColorShades = {
+  [key: string]: string;
+};
+
+const colors: ColorShades = {
   primary25: "#F5F9FF",
   primary50: "#EAF3FF",
   primary100: "#BAD8FF",
@@ -66,7 +70,7 @@ const colors = {
   border: "#D0D5DD",
 };
 
-export const profileColors = [
+export const profileColors: string[] = [
   "#a6691e",
   "#8b8f14",
   "#15734a",
@@ -81,16 +85,22 @@ export const profileColors = [
   "#5CA2FF",
 ];
 
-const scheduleColors = ["#F79009", "#1570EF", "#12B76A", "#FF69B4", "#8E4ECF"];
+const scheduleColors: string[] = [
+  "#F79009",
+  "#1570EF",
+  "#12B76A",
+  "#FF69B4",
+  "#8E4ECF",
+];
 
-let usedColors = [];
+let usedColors: string[] = [];
 
 export const scheduleEventColors = () => {
   const availableColors = scheduleColors.filter(
     (color) => !usedColors.includes(color)
   );
 
-  let selectedColor;
+  let selectedColor: string;
 
   if (availableColors.length === 0) {
     usedColors = [];
