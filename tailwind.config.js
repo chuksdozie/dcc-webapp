@@ -25,6 +25,19 @@ module.exports = {
       sans: ["Inter", "sans-serif"],
       mono: ["Chivo Mono", "monospace"],
     },
+    screens: {
+      // Default Tailwind breakpoints (you can adjust them)
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+
+      // Custom breakpoints (add new or overwrite existing ones)
+      tablet: "600px",
+      laptop: "1024px",
+      desktop: "1280px",
+    },
   },
   plugins: [],
 };
