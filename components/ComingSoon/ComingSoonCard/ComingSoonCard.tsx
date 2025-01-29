@@ -5,6 +5,7 @@ import Image from "next/image";
 import ComingSoonMain from "../ComingSoonMain";
 
 const navLinks = [
+  { title: "Tiktok", href: "https://www.tiktok.com/@iamchuksdozie" },
   { title: "Twitter", href: "https://twitter.com/" },
   { title: "Instagram", href: "https://instagram.com/" },
   { title: "LinkedIn", href: "https://linkedin.com/" },
@@ -56,12 +57,12 @@ const ComingSoonCard = () => {
           <h2 className="text-brand900 text-4xl first-line:font-bold text-center mb-8 mt-4">
             Coming Soon
           </h2>
-          <SocialArea className="" />
+          <SocialArea className="max-sm:hidden" />
         </div>
       </div>
       <div className="flex-1 flex-grow">
         <ComingSoonMain />
-        {/* <SocialArea /> */}
+        <SocialArea className="sm:hidden mt-6" />
       </div>
     </section>
   );
