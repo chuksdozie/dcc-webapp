@@ -12,11 +12,12 @@ const NavBar = () => {
     { title: "Projects", href: "/" },
   ];
   return (
-    <div className="flex justify-between items-center px-4 py-2 gap-2">
-      <div className=" flex w-[40%] justify-center">
-        {links.map((link) => (
+    <div className="flex justify-between items-center px-4 py-2 gap-2 border-b-2 border-gray-100">
+      <div className=" flex w-[40%] justify-center ">
+        {links.map((link, index) => (
           <Link
             href={link?.href}
+            key={index}
             className="font-light text-xs text-gray-700 w-[80px]"
           >
             {link?.title}
