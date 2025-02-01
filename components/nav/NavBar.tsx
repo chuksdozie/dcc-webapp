@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
-import AppCtaBtn from "../base/AppCtaBtn";
 import Logo from "../base/Logo";
+import { AppCtaBtn } from "../base/Buttons";
 
 const NavBar = () => {
   const links = [
@@ -25,7 +25,9 @@ const NavBar = () => {
         ))}
       </div>
       <div className="flex w-[20%] justify-center ">
-        <Logo />
+        <Link href="/">
+          <Logo />
+        </Link>
       </div>
       <div className=" flex w-[40%] justify-end">
         <Link href="https://chat.whatsapp.com/ENV72u1PQEJ3bLfMolXwS5">
