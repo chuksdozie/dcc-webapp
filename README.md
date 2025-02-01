@@ -2,7 +2,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+### Setting Up Your Environment
+
+Make reference to `.env.example` in root folder then duplicate it and rename the new file `.env.local`.
+That should get things ready to run the server.
+
+### Running the Server
+
+Next, run the development server:
 
 ```bash
 npm run dev
@@ -22,38 +29,39 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-
 ## How to Contribute
+
 1. Contributions to this project are welcome and encouraged! Here’s how you can contribute:
 
 2. Fork the Repository: Click the "Fork" button at the top right of this repository to create your copy.
 
 3. Clone Your Fork: Clone the forked repository to your local machine using:
 
-	```bash
-	git clone https://github.com/your-username/your-forked-repo.git
-	```
+   ```bash
+   git clone https://github.com/your-username/your-forked-repo.git
+   ```
 
 4. Create a Branch: Create a new branch for your feature or bugfix:
 
-	```bash
-	git checkout -b feature/your-feature-name
-	```
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+
 5. Make Your Changes: Implement your changes in the codebase.
 
 6. Test Your Changes: Ensure that your changes work as intended and do not break existing functionality.
 
 7. Commit Your Changes: Commit your changes with a descriptive commit message:
 
-	```bash
-	git commit -m "Add description of your changes"
-	```
+   ```bash
+   git commit -m "Add description of your changes"
+   ```
 
 8. Push Your Branch: Push your changes to your forked repository:
 
-	```bash
-	git push origin feature/your-feature-name
-	```
+   ```bash
+   git push origin feature/your-feature-name
+   ```
 
 9. Open a Pull Request: Go to the original repository on GitHub and open a pull request from your branch.
 
@@ -62,9 +70,3 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 11. Celebrate: Once your changes are approved and merged, celebrate your contribution!
 
 Thank you for contributing to this project and helping to make it better!
-
-
-
-
-
-
