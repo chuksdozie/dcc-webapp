@@ -1,7 +1,8 @@
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import Logo from "../base/Logo";
 import { AppCtaBtn } from "../base/Buttons";
+import Sidebar from "./SideBar";
 
 const NavBar = () => {
   const links = [
@@ -12,8 +13,10 @@ const NavBar = () => {
     { title: "Projects", href: "/" },
   ];
   return (
-    <div className="flex justify-between items-center px-4 py-2 gap-2 border-b-2 border-gray-100">
-      <div className=" flex w-[40%] justify-center ">
+    <div className="flex justify-between items-center px-4 py-2 gap-2 border-b-2 border-gray-100 z-20 sticky top-[-10px] bg-white">
+      <Sidebar links={links} />
+
+      <div className=" flex w-[40%] justify-center max-lg:hidden">
         {links.map((link, index) => (
           <Link
             href={link?.href}
@@ -24,12 +27,12 @@ const NavBar = () => {
           </Link>
         ))}
       </div>
-      <div className="flex w-[20%] justify-center ">
+      <div className="flex w-[20%] max-sm:w-[80%] max-sm:justify-start justify-center ">
         <Link href="/">
           <Logo />
         </Link>
       </div>
-      <div className=" flex w-[40%] justify-end">
+      <div className=" flex w-[40%] justify-end max-sm:hidden ">
         <Link href="https://chat.whatsapp.com/ENV72u1PQEJ3bLfMolXwS5">
           <AppCtaBtn>Join Community</AppCtaBtn>
         </Link>
