@@ -2,6 +2,7 @@ import SectionLayout from "@/layout/SectionLayout";
 import Image from "next/image";
 import React from "react";
 import sendImg from "@/assets/icons/send.svg";
+import portraitImg from "@/assets/images/portrait-dcc.jpeg";
 
 const Contributors = () => {
   const contributors = [1, 2, 3, 4, 5, 6, 7, 8];
@@ -15,7 +16,7 @@ const Contributors = () => {
           {contributors.map((contributor, index) => (
             <div className="flex flex-col items-center " key={index}>
               <Image
-                src={sendImg.src}
+                src={portraitImg.src}
                 alt="send"
                 width={80}
                 height={80}
@@ -25,7 +26,9 @@ const Contributors = () => {
                   backgroundColor: "gray",
                 }}
               />
-              <p className="text-gray800 text-sm pt-4 font-bold">User Name</p>
+              <p className="text-gray800 text-sm pt-4 font-bold">
+                Nkechi Agnes
+              </p>
               <p className="text-gray800 text-xs pt-0">Front-end Developer</p>
             </div>
           ))}
