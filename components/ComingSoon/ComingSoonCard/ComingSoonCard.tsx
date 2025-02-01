@@ -11,7 +11,7 @@ const navLinks = [
   { title: "LinkedIn", href: "https://linkedin.com/" },
 ];
 
-const SocialArea = ({ className }: { className?: string }) => {
+export const SocialArea = ({ className }: { className?: string }) => {
   return (
     <div className={className}>
       <p className="text-[#979797] text-left text-xs">

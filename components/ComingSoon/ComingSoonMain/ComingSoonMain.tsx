@@ -1,4 +1,4 @@
-import AppCtaBtn from "@/components/base/AppCtaBtn";
+import { AppCtaBtn } from "@/components/base/Buttons";
 import TextUnderline from "@/components/base/TextUnderline";
 import Link from "next/link";
 import React from "react";
