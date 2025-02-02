@@ -5,7 +5,11 @@ import sendImg from "@/assets/icons/send.svg";
 import portraitImg from "@/assets/images/portrait-dcc.jpeg";
 
 const Contributors = () => {
-  const contributors = [1, 2, 3, 4, 5, 6, 7, 8];
+  const contributors = [
+    { name: "Chiedozie Chukwu", role: "Fullstack Engineer", url: "" },
+    { name: "Jones Ogolo", role: "Front-end Engineer", url: "" },
+    { name: "Franca Francis", role: "UI/UX Designer", url: "" },
+  ];
   return (
     <>
       <SectionLayout header="Contributors">
@@ -27,9 +31,9 @@ const Contributors = () => {
                 }}
               />
               <p className="text-gray800 text-sm pt-4 font-bold">
-                Nkechi Agnes
+                {contributor.name}
               </p>
-              <p className="text-gray800 text-xs pt-0">Front-end Developer</p>
+              <p className="text-gray800 text-xs pt-0">{contributor.role}</p>
             </div>
           ))}
         </div>
