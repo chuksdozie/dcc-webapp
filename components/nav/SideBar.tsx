@@ -37,7 +37,7 @@ const Sidebar = ({ links }: { links: { href: string; title: string }[] }) => {
       />
 
       <div
-        className={`absolute top-12 left-[-20px] w-[250px] h-screen bg-white shadow-lg flex flex-col items-end p-4 transform ${
+        className={`absolute top-10 left-[-20px] w-[250px] h-screen bg-white shadow-lg flex flex-col items-end p-4 transform ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         } transition-transform duration-300 ease-in-out z-10`}
       >
