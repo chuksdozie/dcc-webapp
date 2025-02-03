@@ -16,7 +16,7 @@ const Footer = () => {
   ];
   return (
     <div className="bg-brand900 text-white flex flex-col items-center justify-center p-5 py-[50px]">
-      <div className="flex gap-4 items-center">
+      <div className="flex gap-4 items-center max-lg:flex-col">
         <p className="text-xs font-extralight">
           Sign up to join the community today
         </p>
@@ -30,7 +30,7 @@ const Footer = () => {
         Follow us on social media and never miss an update
       </p>
       {/* <SocialArea className="flex flex-col items-center text-center" /> */}
-      <div>
+      <div className="flex flex-wrap justify-center">
         {socialLinks.map((link, index) => (
           <Link
             href={link?.href}
