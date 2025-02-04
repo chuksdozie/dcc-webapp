@@ -39,8 +39,8 @@ const AboutUs = () => {
               </li>
             </ul>
             <p className={textClass}>
-              DCC’s tagline is "Building Lives Through Tech", emphasizing its
-              mission to empower individuals through technology.
+              DCC&quot;s tagline is &quot;Building Lives Through Tech&quot;,
+              emphasizing its mission to empower individuals through technology.
             </p>
             <div className="flex max-lg:justify-center ">
               <AppCtaBtn>Join the Community</AppCtaBtn>
