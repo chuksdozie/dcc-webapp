@@ -5,7 +5,7 @@ import { AppCtaBtn } from "../base/Buttons";
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col items-center justify-center bg-gray-100 py-5 min-h-[600px] overflow-hidden">
+    <div className="flex flex-col items-center justify-center bg-gray-100 py-5 h-[800px] overflow-hidden max-lg:h-screen">
       {/* <video
         autoPlay
         loop

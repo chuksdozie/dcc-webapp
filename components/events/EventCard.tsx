@@ -2,21 +2,15 @@ import SectionLayout from "@/layout/SectionLayout";
 import Image from "next/image";
 import React from "react";
 import sendImg from "@/assets/icons/send.svg";
-import portraitImg from "@/assets/images/portrait-dcc.jpeg";
+import portraitImg from "@/assets/images/gallery/galleryTwo.svg";
 import Link from "next/link";
 import { truncate } from "fs";
 import { truncateString } from "@/utils";
 
 const EventCard = () => {
-  const contributors = [
-    { name: "Chiedozie Chukwu", role: "Fullstack Engineer", url: "" },
-    { name: "Jones Ogolo", role: "Front-end Engineer", url: "" },
-    { name: "Franca Francis", role: "UI/UX Designer", url: "" },
-    { name: "Franca Francis", role: "UI/UX Designer", url: "" },
-  ];
   const textClass = "text-left text-gray600 text-xs py-1";
   return (
-    <div className="w-[300px] h-[390px] border border-brand400 rounded-lg">
+    <div className="w-[300px] h-[400px] border border-brand400 rounded-lg">
       <Image
         src={portraitImg.src}
         alt="send"
@@ -45,7 +39,7 @@ const EventCard = () => {
         <p className={`${textClass}`}>5:00pm</p>
         <Link href="/">
           <p
-            className={`${textClass} py-4 text-right  text-brand800 font-extralight`}
+            className={`${textClass} py-4 text-right  text-brand950 font-semibold`}
           >
             Register
           </p>
