@@ -10,7 +10,6 @@ const Events = () => {
     { name: "Chiedozie Chukwu", role: "Fullstack Engineer", url: "" },
     { name: "Jones Ogolo", role: "Front-end Engineer", url: "" },
     { name: "Franca Francis", role: "UI/UX Designer", url: "" },
-    { name: "Franca Francis", role: "UI/UX Designer", url: "" },
   ];
   return (
     <>
