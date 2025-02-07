@@ -39,7 +39,7 @@ const DottedLines = ({
 
 const GalleryLayout = () => {
   return (
-    <div className="flex bg-brand700 px-10 py-10 gap-7 max-lg:flex-col">
+    <div className="flex bg-brand900 px-10 py-10 gap-7 max-lg:flex-col">
       <div className="flex flex-col gap-10 relative">
         <Image
           src={images[0].src}
@@ -92,10 +92,6 @@ const GalleryLayout = () => {
           height={140}
           className={imgStyles}
         />
-        <DottedLines
-          direction="horizontal"
-          className="top-[400px] left-[270px] w-[200px]"
-        />
       </div>
       <div className="flex justify-center items-center relative">
         <Image
@@ -108,6 +104,10 @@ const GalleryLayout = () => {
         <DottedLines
           direction="vertical"
           className="top-[350px] left-[140px] w-[200px]"
+        />
+        <DottedLines
+          direction="horizontal"
+          className="top-[400px] left-[-170px] w-[200px]"
         />
       </div>
     </div>

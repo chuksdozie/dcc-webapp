@@ -9,6 +9,8 @@ const Contributors = () => {
     { name: "Chiedozie Chukwu", role: "Fullstack Engineer", url: "" },
     { name: "Jones Ogolo", role: "Front-end Engineer", url: "" },
     { name: "Franca Francis", role: "UI/UX Designer", url: "" },
+    { name: "Joshua", role: "Video Editor", url: "" },
+    { name: "Nzube Onye", role: "Graphics Designer", url: "" },
   ];
   return (
     <>
