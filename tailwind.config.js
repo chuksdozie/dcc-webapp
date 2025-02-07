@@ -17,6 +17,7 @@ module.exports = {
         "coming-soon":
           "url('https://images.unsplash.com/photo-1612611741189-a9b9eb01d515?q=80&w=3774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
         blackOverlay: "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))",
+        "hero-bg": `url('../assets/images/hero.jpg')`,
       },
       colors: {
         ...colors,

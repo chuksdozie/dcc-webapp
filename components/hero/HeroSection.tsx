@@ -5,7 +5,7 @@ import { AppCtaBtn } from "../base/Buttons";
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col items-center justify-center bg-gray-100 py-5 h-[800px] overflow-hidden max-lg:h-screen">
+    <div className="relative flex flex-col items-center justify-center bg-gray-100 py-5 h-[800px] overflow-hidden max-lg:h-screen bg-hero-bg bg-cover bg-center ">
       {/* <video
         autoPlay
         loop
@@ -19,11 +19,13 @@ const HeroSection = () => {
         />
         Your browser does not support the video tag.
       </video> */}
-      <p className="text-sm font-light text-center w-[30%] text-gray-600 max-lg:w-[60%] max-md:w-[80%] z-10">
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black bg-opacity-20  h-[800px] max-lg:h-screen  z-10"></div>
+      <p className="text-sm font-light text-center w-[30%] text-gray-100 max-lg:w-[60%] max-md:w-[80%] z-10">
         A thriving community of tech enthusiasts, developers, and innovators.
         Learn, collaborate, and grow with DCC!
       </p>
-      <p className="text-6xl font-bold text-center mt-6 text-gray-600 max-md:w-[80%] max-md:text-5xl z-10 mb-10">
+      <p className="text-6xl font-bold text-center mt-6 text-gray-100 max-md:w-[80%] max-md:text-5xl z-10 mb-10">
         Building Lives Through Tech
       </p>
       <AppCtaBtn>Join the Community</AppCtaBtn>
