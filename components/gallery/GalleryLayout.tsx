@@ -25,7 +25,7 @@ const DottedLines = ({
   direction,
   className,
 }: {
-  direction: "horizontal" | "vertical" | "both";
+  direction: "horizontal" | "vertical";
   className?: string;
 }) => {
   return (
