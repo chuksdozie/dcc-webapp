@@ -1,5 +1,5 @@
 // next-seo.config.js
-const title = "DC Community - Empowering Tech Enthusiasts";
+const title = "DC Community - Building Lives Through Tech";
 const description =
   "Join the DC Community to connect, learn, and grow with like-minded tech enthusiasts and professionals.";
 

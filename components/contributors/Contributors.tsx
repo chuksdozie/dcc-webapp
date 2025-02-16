@@ -3,14 +3,37 @@ import Image from "next/image";
 import React from "react";
 import sendImg from "@/assets/icons/send.svg";
 import portraitImg from "@/assets/images/portrait-dcc.jpeg";
+import zubyImg from "@/assets/images/contributors/zuby.jpg";
+import chuksImg from "@/assets/images/contributors/chuks.jpg";
+import Link from "next/link";
 
 const Contributors = () => {
   const contributors = [
-    { name: "Chiedozie Chukwu", role: "Fullstack Engineer", url: "" },
-    { name: "Jones Ogolo", role: "Front-end Engineer", url: "" },
-    { name: "Franca Francis", role: "UI/UX Designer", url: "" },
-    { name: "Joshua", role: "Video Editor", url: "" },
-    { name: "Nzube Onye", role: "Graphics Designer", url: "" },
+    {
+      name: "Chiedozie Chukwu",
+      role: "Fullstack Engineer",
+      url: "",
+      image: chuksImg.src,
+    },
+    {
+      name: "Jones Ogolo",
+      role: "Front-end Engineer",
+      url: "",
+      image: portraitImg.src,
+    },
+    {
+      name: "Franca Francis",
+      role: "UI/UX Designer",
+      url: "",
+      image: portraitImg.src,
+    },
+    { name: "Joshua", role: "Video Editor", url: "", image: portraitImg.src },
+    {
+      name: "Zuby Onye",
+      role: "Graphics Designer",
+      url: "",
+      image: zubyImg.src,
+    },
   ];
   return (
     <>
@@ -20,23 +43,27 @@ const Contributors = () => {
         py-12"
         >
           {contributors.map((contributor, index) => (
-            <div className="flex flex-col items-center " key={index}>
-              <Image
-                src={portraitImg.src}
-                alt="send"
-                width={80}
-                height={80}
-                style={{
-                  objectFit: "contain",
-                  borderRadius: "50%",
-                  backgroundColor: "gray",
-                }}
-              />
-              <p className="text-gray800 text-sm pt-4 font-bold">
-                {contributor.name}
-              </p>
-              <p className="text-gray800 text-xs pt-0">{contributor.role}</p>
-            </div>
+            <Link href={contributor.url} key={index} target="_blank">
+              <div className="flex flex-col items-center " key={index}>
+                <Image
+                  src={contributor?.image}
+                  alt="send"
+                  width={80}
+                  height={80}
+                  style={{
+                    objectFit: "contain",
+                    borderRadius: "50%",
+                    backgroundColor: "gray",
+                    width: "80px",
+                    height: "80px",
+                  }}
+                />
+                <p className="text-gray800 text-sm pt-4 font-bold">
+                  {contributor.name}
+                </p>
+                <p className="text-gray800 text-xs pt-0">{contributor.role}</p>
+              </div>
+            </Link>
           ))}
         </div>
       </SectionLayout>
