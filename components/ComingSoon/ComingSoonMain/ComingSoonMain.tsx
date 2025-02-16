@@ -1,5 +1,6 @@
 import { AppCtaBtn } from "@/components/base/Buttons";
 import TextUnderline from "@/components/base/TextUnderline";
+import { links } from "@/constants/links";
 import Link from "next/link";
 import React from "react";
 
@@ -33,7 +34,7 @@ const ComingSoonMain = () => {
         </ul>
       </div>
       <div className="text-center w-full my-4">
-        <Link href="https://chat.whatsapp.com/ENV72u1PQEJ3bLfMolXwS5">
+        <Link href={links.join_community}>
           <AppCtaBtn>Be Part of the Community!</AppCtaBtn>
         </Link>
       </div>

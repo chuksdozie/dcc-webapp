@@ -3,9 +3,10 @@ import React, { useState } from "react";
 import Logo from "../base/Logo";
 import { AppCtaBtn } from "../base/Buttons";
 import Sidebar from "./SideBar";
+import { links } from "@/constants/links";
 
 const NavBar = () => {
-  const links = [
+  const navlinks = [
     { title: "Home", href: "/" },
     { title: "About Us", href: "/about" },
     { title: "Event", href: "/" },
@@ -14,10 +15,10 @@ const NavBar = () => {
   ];
   return (
     <div className="flex justify-between items-center px-4 py-2 gap-2 border-b-2 border-gray-100 z-20 sticky top-[-10px] bg-white">
-      <Sidebar links={links} />
+      <Sidebar links={navlinks} />
 
       <div className=" flex w-[40%] justify-center max-lg:hidden">
-        {links.map((link, index) => (
+        {navlinks.map((link, index) => (
           <Link
             href={link?.href}
             key={index}
@@ -33,7 +34,7 @@ const NavBar = () => {
         </Link>
       </div>
       <div className=" flex w-[40%] justify-end max-sm:hidden ">
-        <Link href="https://chat.whatsapp.com/ENV72u1PQEJ3bLfMolXwS5">
+        <Link href={links.join_community}>
           <AppCtaBtn>Join Community</AppCtaBtn>
         </Link>
       </div>
