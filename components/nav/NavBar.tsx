@@ -34,7 +34,7 @@ const NavBar = () => {
         </Link>
       </div>
       <div className=" flex w-[40%] justify-end max-sm:hidden ">
-        <Link href={links.join_community}>
+        <Link href={links.join_community} target="_blank">
           <AppCtaBtn>Join Community</AppCtaBtn>
         </Link>
       </div>
