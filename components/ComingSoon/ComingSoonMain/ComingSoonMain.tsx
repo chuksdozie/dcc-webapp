@@ -34,7 +34,7 @@ const ComingSoonMain = () => {
         </ul>
       </div>
       <div className="text-center w-full my-4">
-        <Link href={links.join_community}>
+        <Link href={links.join_community} target="_blank">
           <AppCtaBtn>Be Part of the Community!</AppCtaBtn>
         </Link>
       </div>
