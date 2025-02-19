@@ -5,6 +5,9 @@ import sendImg from "@/assets/icons/send.svg";
 import portraitImg from "@/assets/images/portrait-dcc.jpeg";
 import zubyImg from "@/assets/images/contributors/zuby.jpg";
 import chuksImg from "@/assets/images/contributors/chuks.jpg";
+import jonesImg from "@/assets/images/contributors/jones.jpeg";
+import francaImg from "@/assets/images/contributors/franca.jpeg";
+import defaultImg from "@/assets/images/contributors/default.png";
 import Link from "next/link";
 
 const Contributors = () => {
@@ -12,22 +15,22 @@ const Contributors = () => {
     {
       name: "Chiedozie Chukwu",
       role: "Fullstack Engineer",
-      url: "",
+      url: "https://www.devchuks.com",
       image: chuksImg.src,
     },
     {
       name: "Jones Ogolo",
       role: "Front-end Engineer",
-      url: "",
-      image: portraitImg.src,
+      url: "https://www.jonesogolo.com",
+      image: jonesImg.src,
     },
     {
       name: "Franca Francis",
       role: "UI/UX Designer",
-      url: "",
-      image: portraitImg.src,
+      url: "https://www.behance.net/francafrancis",
+      image: francaImg.src,
     },
-    { name: "Joshua", role: "Video Editor", url: "", image: portraitImg.src },
+    { name: "Joshua", role: "Video Editor", url: "", image: defaultImg.src },
     {
       name: "Zuby Onye",
       role: "Graphics Designer",

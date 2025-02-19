@@ -4,6 +4,8 @@ import React from "react";
 import sendImg from "@/assets/icons/send.svg";
 import portraitImg from "@/assets/images/portrait-dcc.jpeg";
 import { AppCtaBtn } from "../base/Buttons";
+import Link from "next/link";
+import { links } from "@/constants/links";
 
 const AboutUs = () => {
   const contributors = [
@@ -17,7 +19,7 @@ const AboutUs = () => {
       <SectionLayout header="About Us">
         <div
           className="flex  items-center justify-between  gap-8  self-center
-        py-12 px-6 max-w-[1200px] mx-auto max-lg:flex-col w-full"
+        py-12 px-6 max-w-[1200px] mx-auto max-lg:flex-col-reverse w-full"
         >
           <div className="w-full ">
             <p className={textClass}>
@@ -43,7 +45,9 @@ const AboutUs = () => {
               emphasizing its mission to empower individuals through technology.
             </p>
             <div className="flex max-lg:justify-center ">
-              <AppCtaBtn>Join the Community</AppCtaBtn>
+              <Link href={links.join_community} target="_blank">
+                <AppCtaBtn>Join the Community</AppCtaBtn>
+              </Link>
             </div>
           </div>
           <div className="w-full">

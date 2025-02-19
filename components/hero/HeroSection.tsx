@@ -2,6 +2,8 @@ import Image from "next/image";
 import React from "react";
 import portraitImg from "@/assets/images/portrait-dcc.jpeg";
 import { AppCtaBtn } from "../base/Buttons";
+import Link from "next/link";
+import { links } from "@/constants/links";
 
 const HeroSection = () => {
   return (
@@ -28,7 +30,9 @@ const HeroSection = () => {
       <p className="text-6xl font-bold text-center mt-6 text-gray-100 max-md:w-[80%] max-md:text-5xl z-10 mb-10">
         Building Lives Through Tech
       </p>
-      <AppCtaBtn>Join the Community</AppCtaBtn>
+      <Link href={links.join_community} target="_blank" className="z-10">
+        <AppCtaBtn>Join the Community</AppCtaBtn>
+      </Link>
       {/* <div className=" absolute top-[-750px] bg-gray-800 w-[3200px] h-[1500px] mt-5 rounded-b-full  overflow-hidden">
         <Image
           src={portraitImg.src}
