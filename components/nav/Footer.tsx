@@ -16,7 +16,7 @@ const Footer = () => {
   ];
   return (
     <div className="bg-brand900 text-white flex flex-col items-center justify-center p-5 py-[50px]">
-      <div className="flex gap-4 items-center max-lg:flex-col">
+      {/* <div className="flex gap-4 items-center max-lg:flex-col">
         <p className="text-xs font-extralight">
           Sign up to join the community today
         </p>
@@ -24,7 +24,7 @@ const Footer = () => {
           <EmailInput placeholder="Your Email" className="h-[40px] w-[85%]" />
           <IconBtn className="w-9 h-9" />
         </div>
-      </div>
+      </div> */}
       <p className="mt-4  text-xs">Stay Updated:</p>
       <p className="mb-6 font-extralight text-xs">
         Follow us on social media and never miss an update

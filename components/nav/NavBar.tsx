@@ -12,6 +12,7 @@ const NavBar = () => {
     { title: "Event", href: "/" },
     { title: "Partners", href: "/" },
     { title: "Projects", href: "/" },
+    { title: "Donate", href: "/" },
   ];
   return (
     <div className="flex justify-between items-center px-4 py-2 gap-2 border-b-2 border-gray-100 z-20 sticky top-[-10px] bg-white">
