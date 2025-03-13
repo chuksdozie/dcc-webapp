@@ -7,7 +7,7 @@ import { EmailInput } from "../base/Inputs";
 const Footer = () => {
   const socialLinks = [
     { title: "Tiktok", href: "https://www.tiktok.com/@iamchuksdozie" },
-    { title: "X", href: "https://x.com/iamchuksdozie" },
+    { title: "X (Twitter)", href: "https://x.com/iamchuksdozie" },
     { title: "Instagram", href: "https://www.instagram.com/iamchuksdozie" },
     {
       title: "LinkedIn",
@@ -33,18 +33,18 @@ const Footer = () => {
         Follow us on social media and never miss an update
       </p>
       {/* <SocialArea className="flex flex-col items-center text-center" /> */}
-      <div className="flex flex-wrap justify-center">
+      <div className="flex flex-wrap justify-center ">
         {socialLinks.map((link, index) => (
           <Link
             href={link?.href}
             key={index}
-            className="font-light text-xs text-gray-100 w-[80px] mx-2"
+            className="font-light text-xs text-gray-100 w-[60px] mx-2"
           >
             {link?.title}
           </Link>
         ))}
       </div>
-      <p className="text-xs text-gray-100 font-extralight mt-4">
+      <p className="text-xs text-gray-100 font-extralight mt-6">
         © Copyright 2025 - DCC Community
       </p>
     </div>
