@@ -3,5 +3,5 @@ type Links = {
 };
 
 export const links: Links = {
-  join_community: "https://discord.gg/mzCRPkmP",
+  join_community: "https://discord.gg/EwqJx2RAmE",
 };

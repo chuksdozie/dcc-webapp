@@ -7,12 +7,15 @@ import { EmailInput } from "../base/Inputs";
 const Footer = () => {
   const socialLinks = [
     { title: "Tiktok", href: "https://www.tiktok.com/@iamchuksdozie" },
-    { title: "Twitter", href: "https://twitter.com/" },
-    { title: "Instagram", href: "https://instagram.com/" },
-    { title: "LinkedIn", href: "https://linkedin.com/" },
-    { title: "LinkedIn", href: "https://linkedin.com/" },
-    { title: "LinkedIn", href: "https://linkedin.com/" },
-    { title: "LinkedIn", href: "https://linkedin.com/" },
+    { title: "X", href: "https://x.com/iamchuksdozie" },
+    { title: "Instagram", href: "https://www.instagram.com/iamchuksdozie" },
+    {
+      title: "LinkedIn",
+      href: "https://www.linkedin.com/in/chukwu-chiedozie/",
+    },
+    // { title: "LinkedIn", href: "https://linkedin.com/" },
+    // { title: "LinkedIn", href: "https://linkedin.com/" },
+    // { title: "LinkedIn", href: "https://linkedin.com/" },
   ];
   return (
     <div className="bg-brand900 text-white flex flex-col items-center justify-center p-5 py-[50px]">
