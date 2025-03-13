@@ -46,6 +46,7 @@ const Sidebar = ({ links }: { links: { href: string; title: string }[] }) => {
             href={link.href}
             key={index}
             className="font-light text-base text-gray-700 w-full p-4 border-b border-gray-200"
+            onClick={() => setIsOpen(false)}
           >
             {link.title}
           </Link>
