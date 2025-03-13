@@ -55,7 +55,7 @@ const AboutUs = () => {
               // width="500"
               height="280"
               width={"100%"}
-              src="https://www.youtube.com/embed/WbA_n00HffE"
+              src={links.about_us_video}
               title="43 Questions with a Medical Doctor (HouseOfficer) ft. Dr. Uko Uyai-Abasi"
               // frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
