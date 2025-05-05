@@ -7,12 +7,17 @@ import { EmailInput } from "../base/Inputs";
 const Footer = () => {
   const socialLinks = [
     { title: "Tiktok", href: "https://www.tiktok.com/@iamchuksdozie" },
+    {
+      title: "YouTube",
+      href: "https://www.youtube.com/@devchuks",
+    },
     { title: "X (Twitter)", href: "https://x.com/iamchuksdozie" },
     { title: "Instagram", href: "https://www.instagram.com/iamchuksdozie" },
     {
       title: "LinkedIn",
       href: "https://www.linkedin.com/in/chukwu-chiedozie/",
     },
+
     // { title: "LinkedIn", href: "https://linkedin.com/" },
     // { title: "LinkedIn", href: "https://linkedin.com/" },
     // { title: "LinkedIn", href: "https://linkedin.com/" },
